@@ -72,12 +72,23 @@ input[type="color"]{
     padding: 0 5px;
 }
 
-input[type="text"]:invalid,
-input[type="number"]:invalid{
+input:invalid
+textarea:invalid
+select:invalid {
     border-color: red;
 }
 
-input[type="text"]:valid,
-input[type="number"]:valid{
+input:valid
+textarea:valid
+select:valid {
     border-color: green;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #ffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px; 
 }
