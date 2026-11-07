@@ -46,6 +46,10 @@ legend {
     font-size: 18px;
     padding: 0 5px;
 }
+
+p{
+    margin-bottom: 12px;
+}
 label {
     display: inline-block;
     margin-bottom: 5px;
@@ -90,5 +94,16 @@ button {
     margin-right: 10px;
     background-color: #ffff;
     border: 1px solid #cccccc;
-    border-radius: 5px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: #ffffff;
+}
+
+button[type="reset"]:hover{
+    background-color: orangered;
+    color: #ffffff;
 }
